@@ -5,9 +5,10 @@
 header {
     background-color: black;
     color: white;
-    height: 200px;
-    width: 100%;
+    height: auto;
+    width: auto;
     text-align: center;
+    padding-bottom: 15px;
 }
 header > p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -20,8 +21,10 @@ a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h1 {
-    font-size: 5em;
+    font-size: 6em;
     padding: 35px 0px 10px 0px;
+    font-family: 'Passion One', 'cursive';
+    font-weight: normal;
 }
 a:hover {
     text-decoration: underline;
@@ -54,4 +57,22 @@ section p {
     margin-left: 25px;
     padding-left: 5px;
     box-shadow: block;   
+}
+#livro {
+    background-image: url(https://www.consultorioesoterico.com/wp-content/uploads/2020/05/ley-de-atraccion-como-aplicarla.jpg);
+    color: white;
+    background-size: cover;
+    background-position: center top;
+}
+#livro > p {
+    background-color: rgba(0, 0, 0, 0.822);
+    width: 400px;
+    margin-left: 25px;
+    padding-left: 5px;
+    box-shadow: block;   
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
 }
