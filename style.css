@@ -25,6 +25,7 @@ h1 {
     padding: 35px 0px 10px 0px;
     font-family: 'Passion One', 'cursive';
     font-weight: normal;
+    font-variant: small-caps;
 }
 a:hover {
     text-decoration: underline;
