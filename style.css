@@ -45,8 +45,7 @@ section p {
     padding-bottom: 50px;
 }
 #flor {
-    background-image: url(https://s2.best-wallpaper.net/wallpaper/1600x900/2001/Red-ladybug-yellow-petals_1600x900.jpg);
-    /* imagem não funciona no bing*/
+    background-image: url(pacote-d012/imagens/background001.jpg);
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
@@ -60,7 +59,7 @@ section p {
     box-shadow: block;   
 }
 #livro {
-    background-image: url(https://www.consultorioesoterico.com/wp-content/uploads/2020/05/ley-de-atraccion-como-aplicarla.jpg);
+    background-image: url(pacote-d012/imagens/background002.jpg);
     color: white;
     background-size: cover;
     background-position: center top;
