@@ -8,7 +8,7 @@ header {
     height: auto;
     width: auto;
     text-align: center;
-    padding-bottom: 15px;
+    padding-bottom: 35px;
 }
 header > p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -53,7 +53,7 @@ section p {
     color: white;
 }
 #flor > p {
-    background-color: rgba(0, 0, 0, 0.822);
+    background-color: rgba(0, 0, 0, 0.514);
     width: 400px;
     margin-left: 25px;
     padding-left: 5px;
@@ -66,14 +66,9 @@ section p {
     background-position: center top;
 }
 #livro > p {
-    background-color: rgba(0, 0, 0, 0.822);
+    background-color: rgba(0, 0, 0, 0.514);
     width: 400px;
     margin-left: 25px;
     padding-left: 5px;
     box-shadow: block;   
-}
-footer {
-    background-color: black;
-    color: white;
-    text-align: center;
 }
