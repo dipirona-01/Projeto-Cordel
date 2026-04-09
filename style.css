@@ -2,6 +2,9 @@
 * {
     margin: 0px;
 }
+html, body {
+    min-height: 100vh;
+}
 header {
     background-color: black;
     color: white;
@@ -34,16 +37,15 @@ a:hover {
 section {
     background-color: white;
     height: 300px;
-    margin: 35px 0px 50px 0px;
 }
 section p {
-    font-size: 2em;
+    font-size: 1.8em;
     padding-left: 30px;
     padding-top: 10px;
     font-family: 'Sriracha', 'cursive';
 }
 .espaco {
-    padding-bottom: 50px;
+    padding-bottom: 2em;
 }
 #flor {
     background-image: url(pacote-d012/imagens/background001.jpg);
@@ -51,24 +53,26 @@ section p {
     background-position: center top;
     background-size: cover;
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.37);
+    background-attachment: fixed;
 }
 #flor > p {
     background-color: rgba(0, 0, 0, 0.514);
-    width: 400px;
-    margin-left: 25px;
-    padding-left: 5px;
-    box-shadow: block;   
+    padding: 5px;
+    margin: 30px;
+    display: inline-block;
 }
 #livro {
     background-image: url(pacote-d012/imagens/background002.jpg);
     color: white;
     background-size: cover;
     background-position: center top;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.37);
+    background-attachment: fixed;
 }
 #livro > p {
     background-color: rgba(0, 0, 0, 0.514);
-    width: 400px;
-    margin-left: 25px;
-    padding-left: 5px;
-    box-shadow: block;   
+    padding: 5px;
+    margin: 30px;
+    display: inline-block; 
 }
